@@ -1,0 +1,55 @@
+{
+  "queues": {
+    "definition": "服务队列的独立业务承诺。",
+    "columns": {
+      "queue": "队列标识",
+      "skill": "所需技能",
+      "target_minutes": "首次进入至完成的时限，分钟",
+      "priority": "数值越小越优先"
+    }
+  },
+  "staff": {
+    "definition": "人员和数字席位，parallel 为允许同时处理的上限，不能转换成人员工时。",
+    "columns": {
+      "staff": "人员标识",
+      "kind": "human 或 digital",
+      "skills": "允许技能列表",
+      "parallel": "并行上限"
+    }
+  },
+  "availability": {
+    "definition": "可用区间与休息，区间左闭右开。",
+    "columns": {
+      "id": "记录标识",
+      "staff": "人员标识",
+      "start": "起点",
+      "end": "终点",
+      "status": "available 或 break"
+    }
+  },
+  "events": {
+    "definition": "事件身份由 id 确定；更正以 supersedes 指向旧事件，同一工单保留全部事实。",
+    "columns": {
+      "id": "事件标识",
+      "ticket": "工单标识",
+      "attempt": "尝试标识",
+      "queue": "队列",
+      "actor": "处理者",
+      "event": "opened/completed/handoff/reopened",
+      "occurred": "业务发生时刻",
+      "received": "本系统知道该事件的时刻",
+      "supersedes": "更正的旧事件标识，可空"
+    }
+  },
+  "changes": {
+    "definition": "初次分析之后才可导入的事实。",
+    "columns": {
+      "id": "变化标识",
+      "type": "absence/backlog",
+      "subject": "人员或队列",
+      "start": "起点",
+      "end": "终点",
+      "quantity": "积压工单数，缺勤为0"
+    }
+  }
+}

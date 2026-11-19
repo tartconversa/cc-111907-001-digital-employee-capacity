@@ -1,0 +1,20 @@
+[
+  {
+    "queue": "billing",
+    "skill": "invoice",
+    "target_minutes": 60,
+    "priority": 1
+  },
+  {
+    "queue": "general",
+    "skill": "basic",
+    "target_minutes": 180,
+    "priority": 2
+  },
+  {
+    "queue": "special",
+    "skill": "expert",
+    "target_minutes": 45,
+    "priority": 1
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "staff": "H1",
+    "kind": "human",
+    "skills": [
+      "invoice",
+      "basic"
+    ],
+    "parallel": 1
+  },
+  {
+    "staff": "H2",
+    "kind": "human",
+    "skills": [
+      "expert",
+      "basic"
+    ],
+    "parallel": 1
+  },
+  {
+    "staff": "H3",
+    "kind": "human",
+    "skills": [
+      "invoice",
+      "expert"
+    ],
+    "parallel": 1
+  },
+  {
+    "staff": "D1",
+    "kind": "digital",
+    "skills": [
+      "basic",
+      "invoice"
+    ],
+    "parallel": 3
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "a1",
+    "staff": "H1",
+    "start": "2026-11-19T20:00:00Z",
+    "end": "2026-11-20T04:00:00Z",
+    "status": "available"
+  },
+  {
+    "id": "a2",
+    "staff": "H1",
+    "start": "2026-11-20T00:00:00Z",
+    "end": "2026-11-20T00:30:00Z",
+    "status": "break"
+  },
+  {
+    "id": "a3",
+    "staff": "H2",
+    "start": "2026-11-19T20:00:00Z",
+    "end": "2026-11-20T04:00:00Z",
+    "status": "available"
+  },
+  {
+    "id": "a4",
+    "staff": "H3",
+    "start": "2026-11-20T01:00:00Z",
+    "end": "2026-11-20T05:00:00Z",
+    "status": "available"
+  },
+  {
+    "id": "a5",
+    "staff": "D1",
+    "start": "2026-11-19T20:00:00Z",
+    "end": "2026-11-20T04:00:00Z",
+    "status": "available"
+  }
+]

@@ -1,7 +1,0 @@
-event_id,ticket_id,attempt_id,queue_id,actor,event,occurred_utc,received_utc
-e1,t-1,a-1,q-a,d-1,opened,2026-11-18T23:00:00Z,2026-11-18T23:00:01Z
-e2,t-1,a-1,q-a,d-1,tool_call,2026-11-18T23:02:00Z,2026-11-18T23:02:01Z
-e3,t-1,a-1,q-a,d-1,handoff,2026-11-18T23:04:00Z,2026-11-18T23:04:01Z
-e4,t-1,a-2,q-a,h-1,completed,2026-11-18T23:20:00Z,2026-11-18T23:20:01Z
-e5,t-2,a-1,q-b,d-1,opened,2026-11-19T03:59:00Z,2026-11-19T04:03:00Z
-e6,t-2,a-1,q-b,d-1,completed,2026-11-19T04:00:00Z,2026-11-19T04:04:00Z
